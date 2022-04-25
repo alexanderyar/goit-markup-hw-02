@@ -9,7 +9,13 @@ body {
     background-color: #fff;
     color: var(--primary-text-color);
 
-}
+    font-family:Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    }
+
+
 /* BGC secondary  rgba(245, 244, 250, 1); */
 
 /* text color  rgba(117, 117, 117, 1); */
@@ -20,9 +26,16 @@ body {
 
 /* address #ffffff  */
 
-/* foot contact background: rgba(255, 255, 255, 0.6); */
+/* footer contact background: rgba(255, 255, 255, 0.6); */
+
+
 .logo {
+    font-family: raleway, sans-serif;
     color: black;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 .list {
     list-style:none;
@@ -30,7 +43,12 @@ body {
 
 /* site nav  */
 .site-nav a {
-    color:var(--secondary-text-color) ;
+    color:var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+        text-decoration: none;
 }
 .site-nav a:hover, .site-nav a:focus, .auth a:hover,
 .auth a:focus {
@@ -38,32 +56,87 @@ body {
 }
 /* auth */
 .auth a {
-    color:var(--primary-text-color) ;
+    color:var(--primary-text-color)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        text-decoration: none;
 }
+
+/* hero */
+
 .section .hero {
     color: #fff;
     background-color: #000;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-.section .section-title, .subheader {
+
+.section .section-title {
     color:var(--secondary-text-color);
+    text-align: center;
 }
+.subheader {
+color:var(--secondary-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.subheader-text {
+    font-size: 14px;
+    line-height: 1.71;
+ }
+ .list .text {
+    font-size: 16px;
+    line-height: 1.19;
+ }
+
+.grey-bgc {
+    background-color: var(--background-secondary-color);
+}
+
 /* button */
+
 .button {
     color: #fff;
     background-color:var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    cursor:pointer;
 }
 .logo-footer {
     color: #fff; 
     background-color: #000;
+
+    font-family: raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+;
+
 }
  address {
      color: #fff; background-color: #000;
  }
  address a {
-    color:rgba(255, 255, 255, 0.6)
+    color:rgba(255, 255, 255, 0.6);
+        text-decoration: none;
  }
 
- /* from here start adding css styles for portfoio.html */
+ /* from here starting adding additional styles for portfolio.html */
  
  .site-nav .current {
      color: var(--accent-color);
@@ -71,9 +144,26 @@ body {
  .filter .filter-button {
      color:var(--secondary-text-color);
      background-color: var(--background-secondary-color)
+     font-family: inherit;
+     font-weight: 500;
+     font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+        cursor:pointer;
  }
-.filter .filter-button:hover {
+.filter .filter-button:hover, .filter .filter-button:focus {
     color:#fff;
     background-color: var(--accent-color)
 }
-
+.port-subheader {
+    color:var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.port-text {
+font-size: 16px;
+line-height: 1.88;
+}
