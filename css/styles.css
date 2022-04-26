@@ -37,6 +37,9 @@ body {
     line-height: 1.2;
     text-decoration: none;
 }
+.logo-web {
+    color: var(--accent-color);
+}
 .list {
     list-style:none;
 }
