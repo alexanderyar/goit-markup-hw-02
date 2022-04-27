@@ -170,7 +170,7 @@ text-transform: uppercase;
  }
  .filter .filter-button {
      color:var(--secondary-text-color);
-     background-color: var(--background-secondary-color)
+     background-color: var(--background-secondary-color);
      font-family: inherit;
      font-weight: 500;
      font-size: 16px;
