@@ -59,7 +59,7 @@ body {
 }
 /* auth */
 .auth a {
-    color:var(--primary-text-color)
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -69,17 +69,21 @@ body {
 
 /* hero */
 
+
 .section .hero {
     color: #fff;
-    background-color:var(--hero-and-footer-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
 }
 
+.section-bgc {
+    background-color:var(--hero-and-footer-color);
+}
 .section .section-title {
     color:var(--secondary-text-color);
     text-align: center;
@@ -93,6 +97,13 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+}
+
+.subheader-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color:var(--secondary-text-color);
 }
 
 .subheader-text {
@@ -118,13 +129,15 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-
     cursor:pointer;
 }
-.button:hover {
-    color:var(--accent-color);
-    background-color: #fff;
+.button:hover, button:focus {
+    color:#fff;
+    background-color:#188CE8;
 } 
+.button-centered {
+    text-align: center;
+}
 
 .logo-footer {
     color: #fff; 
@@ -144,10 +157,12 @@ text-transform: uppercase;
 .bgc-grey {
     color:rgba(255, 255, 255, 0.6);
         text-decoration: none;
-        background-color:var(--hero-and-footer-color);
         
  }
 
+ .address-no-italic {
+     font-style:normal;
+ }
  /* from here starting adding additional styles for portfolio.html */
  
  .site-nav .current {

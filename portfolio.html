@@ -35,13 +35,25 @@
 <h1>portfolio</h1>
         
     
-         <div class="filter">
-        <button class="filter-button" type="button">Все</button>
-        <button class="filter-button" type="button">Вебсайты</button>
-        <button class="filter-button" type="button">Приложения</button>
-        <button class="filter-button" type="button">Дизайн</button>
-        <button class="filter-button" type="button">Маркетинг</button>
-    </div>
+      <ul class="filter list">
+<li>
+    <button class="filter-button" type="button">Все</button>
+</li>
+<li>
+    <button class="filter-button" type="button">Вебсайты</button>
+</li>
+<li>
+    <button class="filter-button" type="button">Приложения</button>
+</li>
+<li>
+    <button class="filter-button" type="button">Дизайн</button>
+</li>
+<li>
+    <button class="filter-button" type="button">Маркетинг</button>
+</li>
+
+      </ul>
+
    
 
     <ul class="list">
@@ -108,19 +120,19 @@
     </section>
 
 </main>
-    <footer>
-        <!-- is it necessary to use 2 separate <address> tags? -->
-        <!-- added div for css -->
-        <a class="logo-footer" href="./index.html"><span class="logo-web">Web</span>Studio</a>
-        <address>
+<footer class="section-bgc">
+    <a class="logo-footer" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+    <address>
+        <span class="address-no-italic">
             г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <ul class="auth list bgc-grey">
+        </span>
+
+        <ul class="auth list bgc-grey address-no-italic">
             <li><a href="mailto:info@example.com">info@example.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    
-    
-    </footer>
+    </address>
+
+</footer>
 </body>
 </html>
