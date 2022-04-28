@@ -162,6 +162,7 @@ text-transform: uppercase;
 
  .address-no-italic {
      font-style:normal;
+     color:rgba(255, 255, 255, 0.6);
  }
  /* from here starting adding additional styles for portfolio.html */
  
